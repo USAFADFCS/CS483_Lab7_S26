@@ -5,7 +5,7 @@
  * read messages from a shared memory region
  * 
  * To compile using gcc:
- *   gcc -o shared_sync shared_sync.c -lrt
+ *   gcc -o shared_sync shared_sync.c
  * 
  * USAGE: 
  *   ./shared_sync
