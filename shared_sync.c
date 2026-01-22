@@ -1,4 +1,15 @@
-#include <stdio.h>
+/* ============================================
+ * SHARED MEM - shared_sync.c
+ * ============================================
+ * This program creates two children that send and
+ * read messages from a shared memory region
+ * 
+ * To compile using gcc:
+ *   gcc -o shared_sync shared_sync.c -lrt
+ * 
+ * USAGE: 
+ *   ./shared_sync
+ */#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
